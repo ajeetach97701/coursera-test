@@ -23,8 +23,14 @@ a:hover,a:focus{
     width: 100%;
     color: white;
     text-align: center;
+    height: 400px;
+    overflow: auto;
 }
-#itto{
+secction{
+    height: auto;
+    position: relative;
+    overflow: auto;
+    height: 500px;
     }
 
 
