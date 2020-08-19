@@ -1,0 +1,51 @@
+body{
+	color: black;
+	 font-family: 'Oxygen', sans-serif;
+     background-image: url('../images/bg.jpg');
+	}
+
+#header-nav{
+ background-image: url('../images/1.jpg');
+	font-weight: 900;
+	border-radius: 0;
+	border: 2px solid black;
+    color: whitesmoke;
+}
+#bold{
+    padding-left: 2px;
+}
+a:hover,a:focus{
+    color:white;
+}
+
+.color{
+    background-image: url('../images/1.jpg');
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 400px;
+    overflow: auto;
+}
+secction{
+    height: auto;
+    position: relative;
+    overflow: auto;
+    height: 500px;
+    }
+
+
+@media (min-width: 992px) { 
+#coloo{
+  width: 100%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){ 
+  #coloo{
+  width: 100%;
+}
+}
+@media (max-width: 767px) { 
+ #coloo{
+  width: 80%;
+ }
+}
